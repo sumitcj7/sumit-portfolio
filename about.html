@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="About Sumit Kumar Chaudhary — Web Developer in Kathmandu pursuing BSc. CSIT."/>
+  <link rel="icon" href="assets/favicon.ico" />
+  <meta property="og:type" content="profile" />
+  <meta property="og:title" content="About • Sumit Kumar Chaudhary" />
+  <meta property="og:description" content="Web developer focused on Node.js, Express, MongoDB, and Java." />
+  <meta property="og:image" content="assets/logo.png" />
+  <meta property="og:url" content="https://chaudharysumit.com.np/about.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About • Sumit Kumar Chaudhary" />
+  <meta name="twitter:description" content="Web developer focused on Node.js, Express, MongoDB, and Java." />
+  <meta name="twitter:image" content="assets/logo.png" />
+  <title>About • Sumit Kumar Chaudhary</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Home">
+      <div class="logo"><span>SC</span></div>
+      <span>Sumit Kumar Chaudhary</span>
+    </a>
+    <nav class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div style="display:flex; gap:8px">
+      <button class="hamburger" aria-label="Open Menu">☰</button>
+      <button class="theme-toggle" data-theme-toggle onclick="toggleTheme()">☀️ Light</button>
+    </div>
+  </div>
+</header>
+
+  <main class="container">
+    <section class="grid cols-2 reveal" style="padding:28px 0">
+      <div class="card reveal">
+        <h2 class="gradient-title" style="font-size:36px">About Me</h2>
+        <div style="display:flex;gap:18px;align-items:center;flex-wrap:wrap">
+          <img class="avatar avatar-lg" src="assets/profile.jpg" alt="Portrait of Sumit Kumar Chaudhary" loading="lazy"/>
+          <p style="margin:0">I'm Sumit Kumar Chaudhary, a Web Developer based in Kathmandu. I'm currently pursuing BSc. CSIT at Texas International College (2023–Present). I love to code and explore new technologies.</p>
+        </div>
+        <p class="muted">Goal: Land an internship or junior role where I can contribute to real‑world projects while learning from experienced engineers.</p>
+        <div class="grid cols-2">
+          <div class="pill"><b>Location: </b><span class="muted">Kathmandu, Nepal</span></div>
+          <div class="pill"><b>Status: </b><span class="muted">Open to Opportunities</span></div>
+          <div class="pill"><b>Email: </b><span class="muted">sumit2018chaudhary@gmail.com</span></div>
+          <div class="pill"><b>Phone: </b><span class="muted">9813682133</span></div>
+        </div>
+      </div>
+      <div class="card reveal">
+        <h3 style="margin-top:0">Skills</h3>
+        <div class="tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+          <span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB</span>
+          <span class="tag">Java</span><span class="tag">C</span><span class="tag">C++</span>
+          <span class="tag">Spring Boot</span><span class="tag">MySQL</span><span class="tag">Git</span>
+        </div>
+        <div class="spacer"></div>
+        <h3>Education</h3>
+        <ul>
+          <li>BSc. CSIT – Texas International College (2023–Present)</li>
+          <li>+2 Science (Physics) – Morgan International College (2021–2023)</li>
+          <li>SEE – Nepal Police School (2078 BS)</li>
+        </ul>
+        <div class="spacer"></div>
+        <h3>Socials</h3>
+        <p>
+          <a class="button" href="https://github.com/sumitcj7" target="_blank" rel="noopener">GitHub</a>
+          <a class="button" href="https://www.linkedin.com/in/sumit-chaudhary-4459b02a5/" target="_blank" rel="noopener">LinkedIn</a>
+        </p>
+      </div>
+    </section>
+  </main>
+  
+<footer class="footer">
+  <div class="container">
+    <div style="display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap">
+      <div>© <span id="year"></span> Sumit Kumar Chaudhary • Web Developer</div>
+      <div class="muted">Kathmandu, Nepal • <span>sumit2018chaudhary@gmail.com</span></div>
+    </div>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</footer>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Sumit Kumar Chaudhary","jobTitle":"Web Developer","address":{"@type":"PostalAddress","addressLocality":"Kathmandu","addressCountry":"NP"},"email":"mailto:sumit2018chaudhary@gmail.com","telephone":"+9779813682133","url":"https://chaudharysumit.com.np/about.html","sameAs":["https://github.com/sumitcj7","https://www.linkedin.com/in/sumit-chaudhary-4459b02a5/"]}
+</script>
+<script src="assets/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Contact Sumit Kumar Chaudhary for internships, freelance, or junior roles."/>
+  <link rel="icon" href="assets/favicon.ico" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Contact • Sumit Kumar Chaudhary" />
+  <meta property="og:description" content="Get in touch for opportunities or collaborations." />
+  <meta property="og:image" content="assets/logo.png" />
+  <meta property="og:url" content="https://chaudharysumit.com.np/contact.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Contact • Sumit Kumar Chaudhary" />
+  <meta name="twitter:description" content="Get in touch for opportunities or collaborations." />
+  <meta name="twitter:image" content="assets/logo.png" />
+  <title>Contact • Sumit Kumar Chaudhary</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Home">
+      <div class="logo"><span>SC</span></div>
+      <span>Sumit Kumar Chaudhary</span>
+    </a>
+    <nav class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div style="display:flex; gap:8px">
+      <button class="hamburger" aria-label="Open Menu">☰</button>
+      <button class="theme-toggle" data-theme-toggle onclick="toggleTheme()">☀️ Light</button>
+    </div>
+  </div>
+</header>
+
+  <main class="container">
+    <section class="grid cols-2 reveal" style="padding:28px 0; align-items:start">
+      <div class="card reveal">
+        <h2 class="gradient-title" style="font-size:36px">Get in touch</h2>
+        <p>If you have an internship, freelance, or entry‑level opportunity, I’d love to hear from you.</p>
+        <div class="kpis">
+          <div class="pill"><b>Email</b><span class="muted">sumit2018chaudhary@gmail.com</span></div>
+          <div class="pill"><b>Phone</b><span class="muted">9813682133</span></div>
+          <div class="pill"><b>LinkedIn</b><span class="muted"><a href="https://www.linkedin.com/in/sumit-chaudhary-4459b02a5/" target="_blank" style="color:inherit">Profile</a></span></div>
+        </div>
+      </div>
+      <div class="card reveal">
+        <h3 style="margin-top:0">Quick Message</h3>
+        <form onsubmit="sendEmail(event)">
+          <div class="form-row">
+            <div>
+              <label for="name">Your Name</label>
+              <input class="input" id="name" name="name" placeholder="Your name" required/>
+            </div>
+            <div>
+              <label for="email">Your Email</label>
+              <input class="input" id="email" name="email" type="email" placeholder="you@example.com" required/>
+            </div>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Hello Sumit, I would like to discuss…"></textarea>
+          </div>
+          <button class="button primary" type="submit">Send Email</button>
+        </form>
+        <p class="muted" style="margin-top:10px">This uses your email app(mailto) . If you prefer, reach out directly at <b>sumit2018chaudhary@gmail.com</b>.</p>
+      </div>
+    </section>
+  </main>
+  
+<footer class="footer">
+  <div class="container">
+    <div style="display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap">
+      <div>© <span id="year"></span> Sumit Kumar Chaudhary • Web Developer</div>
+      <div class="muted">Kathmandu, Nepal • <span>sumit2018chaudhary@gmail.com</span></div>
+    </div>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</footer>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ContactPage","name":"Contact • Sumit Kumar Chaudhary","url":"https://chaudharysumit.com.np/contact.html"}
+</script>
+<script src="assets/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Projects by Sumit Kumar Chaudhary — Node.js, Express, MongoDB, Java Swing."/>
+  <link rel="icon" href="assets/favicon.ico" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Projects • Sumit Kumar Chaudhary" />
+  <meta property="og:description" content="A selection of web, backend, and desktop projects." />
+  <meta property="og:image" content="assets/logo.png" />
+  <meta property="og:url" content="https://chaudharysumit.com.np/projects.html" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Projects • Sumit Kumar Chaudhary" />
+  <meta name="twitter:description" content="A selection of web, backend, and desktop projects." />
+  <meta name="twitter:image" content="assets/logo.png" />
+  <title>Projects • Sumit Kumar Chaudhary</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+  
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Home">
+      <div class="logo"><span>SC</span></div>
+      <span>Sumit Kumar Chaudhary</span>
+    </a>
+    <nav class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div style="display:flex; gap:8px">
+      <button class="hamburger" aria-label="Open Menu">☰</button>
+      <button class="theme-toggle" data-theme-toggle onclick="toggleTheme()">☀️ Light</button>
+    </div>
+  </div>
+</header>
+
+  <main class="container">
+    <section class="reveal" style="padding:28px 0">
+      <h2 class="gradient-title" style="font-size:36px">Projects</h2>
+      <p class="subtitle">A selection of my recent work across web, backend, and desktop apps.</p>
+
+      <div class="grid cols-3">
+        <article class="card project reveal">
+          <h3>ChatRoom</h3>
+          <p>Open chat space where anyone can join and talk in real‑time.</p>
+          <div class="tags">
+            <span class="tag">Node.js</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+          </div>
+          <p><a class="button" href="https://github.com/sumitcj7/ChatRoom" target="_blank" rel="noopener">GitHub Repo</a></p>
+        </article>
+
+        <article class="card project reveal">
+          <h3>Online Course Platform (Backend)</h3>
+          <p>JWT auth, role‑based access (Instructor/Student), course creation, listing, and enrollment with secure APIs.</p>
+          <div class="tags">
+            <span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">MongoDB</span><span class="tag">JWT</span>
+          </div>
+          <p>
+            <a class="button" href="https://github.com/sumitcj7/Online_course" target="_blank" rel="noopener">GitHub Repo</a>
+          </p>
+        </article>
+
+        <article class="card project reveal">
+          <h3>Food App (CRUD)</h3>
+          <p>Create, edit, and delete food items with images and details using EJS templates.</p>
+          <div class="tags">
+            <span class="tag">Node.js</span><span class="tag">EJS</span><span class="tag">MongoDB</span>
+          </div>
+          <p><a class="button" href="https://github.com/sumitcj7/CRUD-app" target="_blank" rel="noopener">GitHub Repo</a></p>
+        </article>
+
+        <article class="card project reveal">
+          <h3>TicTacToe (Desktop)</h3>
+          <p>Classic Tic Tac Toe built with Java Swing.</p>
+          <div class="tags">
+            <span class="tag">Java</span><span class="tag">Swing</span>
+          </div>
+          <p><a class="button" href="https://github.com/sumitcj7/TicTacToe" target="_blank" rel="noopener">GitHub Repo</a></p>
+        </article>
+
+        <article class="card project reveal">
+          <h3>Employee Management System</h3>
+          <p>Manage employees: add, remove, and update. Backend with Spring Boot and MySQL.</p>
+          <div class="tags">
+            <span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">MySQL</span>
+          </div>
+          <p><a class="button" href="https://github.com/sumitcj7/CRUD_UsingJava" target="_blank" rel="noopener">GitHub Repo</a></p>
+        </article>
+
+      </div>
+    </section>
+  </main>
+  
+<footer class="footer">
+  <div class="container">
+    <div style="display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap">
+      <div>© <span id="year"></span> Sumit Kumar Chaudhary • Web Developer</div>
+      <div class="muted">Kathmandu, Nepal • <a href="mailto:sumit2018chaudhary@gmail.com" style="color:inherit">sumit2018chaudhary@gmail.com</a></div>
+    </div>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</footer>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"CollectionPage","name":"Projects • Sumit Kumar Chaudhary","url":"https://chaudharysumit.com.np/projects.html"}
+</script>
+<script src="assets/script.js"></script>
+
+</body>
+</html>
